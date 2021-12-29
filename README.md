@@ -23,9 +23,9 @@ Below are the mechanisms in order to download a snapshot of our datadir using st
 #### Download via direct link
 
 
-[Compressed](https://link.us1.storjshare.io/raw/jucu4gnyy6ubvpdj4aoa6tiuti3a/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar.gz)
+[Compressed](https://link.us1.storjshare.io/raw/jxj3zpfvotaqnhe2uycfuowfb3ua/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar.gz)
 
-[Tar](https://link.us1.storjshare.io/raw/jw6vhcrzbtxmrq2ziu2qpmimizla/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar)
+[Tar](https://link.us1.storjshare.io/raw/jxg7ami3ig42amcqnh53amxwmzpq/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar)
 
 
 
@@ -40,7 +40,7 @@ Extracts the .tar on the fly without needing 2x the space
 
 cd node1/data
 
-wget -qO- https://link.us1.storjshare.io/raw/jw6vhcrzbtxmrq2ziu2qpmimizla/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar | tar xvf -
+wget -qO- https://link.us1.storjshare.io/raw/jxg7ami3ig42amcqnh53amxwmzpq/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar | tar xvf -
 
 ```
 
@@ -80,7 +80,7 @@ This methods require 2x of the space required for the blockchain data (approx 10
 
 ```bash
 
-wget -O pocket.tar.gz https://link.us1.storjshare.io/raw/jucu4gnyy6ubvpdj4aoa6tiuti3a/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar.gz
+wget -O pocket.tar.gz https://link.us1.storjshare.io/raw/jxj3zpfvotaqnhe2uycfuowfb3ua/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar.gz
 
 tar zxvf pocket.tar -C node1/data
 
@@ -91,7 +91,7 @@ tar zxvf pocket.tar -C node1/data
 
 ```bash
 
-wget -O pocket.tar https://link.us1.storjshare.io/raw/jw6vhcrzbtxmrq2ziu2qpmimizla/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar
+wget -O pocket.tar https://link.us1.storjshare.io/raw/jxg7ami3ig42amcqnh53amxwmzpq/pocket-blockchain/pocket-network-data-1328-RC-0.7.0.1.tar
 
 tar xvf pocket.tar -C node1/data
 
